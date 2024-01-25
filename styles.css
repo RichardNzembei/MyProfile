@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    
+}
+
+#myprofile {
+    
+    width: 600px;
+    margin: auto;
+    height:fit-content ;
+    padding-top: auto;
+}
+button{
+    background-color: azure;
+    width: 60px;
+    padding: auto;
+    margin: 5px;
+    font-size: 16px;
+    box-sizing: inherit;
+    cursor: pointer;
+    font-style: italic;
+
+}
