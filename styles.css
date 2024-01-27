@@ -1,23 +1,27 @@
 body {
     background-color: aqua;
-    
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
 }
 
-#myprofile {
-    
-    width: 600px;
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+form {
+    max-width: 300px;
     margin: auto;
-    height:fit-content ;
-    padding-top: auto;
 }
-button{
-    background-color: azure;
-    width: 60px;
-    padding: auto;
-    margin: 5px;
-    font-size: 16px;
-    box-sizing: inherit;
-    cursor: pointer;
-    font-style: italic;
 
+input, button {
+    margin: 10px;
+    padding: 5px;
 }

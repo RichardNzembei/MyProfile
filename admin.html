@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="web.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Matching Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#" onclick="showRegistration()">Register</a>
+        <a href="#" onclick="showLogin()">Login</a>
+    </nav>
+
+    <!-- Home Content (Initially Hidden) -->
+    <div id="homeContent">
+    
+        <h1>Welcome to Our Job Matching Platform</h1>
+
+        <p>
+            Connecting employers with competent workers. Upload your details about studies, professions,
+            and career achievements to find the perfect match for your needs.
+        </p>
+    </div>
+    <!-- Registration Content (Initially Hidden) -->
+    <div id="registrationContent" style="display: none;">
+        <!-- Registration form and other content go here -->
+        <h2>User Registration</h2>
+
+        <form id="registrationForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <button type="button" onclick="registerUser()">Register</button>
+        </form>
+    </div>
+
+    <!-- Login Content (Initially Hidden) -->
+    <div id="loginContent" style="display: none;">
+        <h2>User Login</h2>
+
+        <form id="loginForm">
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required><br>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required><br>
+
+            <button type="button" onclick="loginUser()">Login</button>
+        </form>
+    </div>
+
+    <!-- Other content goes here -->
+
+   
+</body>
+</html>
