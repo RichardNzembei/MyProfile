@@ -1,3 +1,23 @@
+function showMyProfile() {
+    // Add functionality for My Profile
+    alert('Show My Profile');
+}
+
+function showJobs() {
+    // Add functionality for Jobs
+    alert('Show Jobs');
+}
+
+function showApplications() {
+    // Add functionality for Applications
+    alert('Show Applications');
+}
+
+function signOut() {
+    // Add functionality for Sign Out
+    alert('Sign Out');
+}
+
 
 document.addEventListener('DOMContentLoaded', function () {
     showHome();

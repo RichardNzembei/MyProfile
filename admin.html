@@ -6,28 +6,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Matching Platform</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-        nav {
-            margin-bottom: 20px;
-        }
-
-        nav a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-    </style>
+  
 </head>
 <body>
     <nav>
-        <a href="#">Home</a>
+        <div class="dropdown">
+            <a href="#">Home</a>
+            <div class="dropdown-content">
+                <a href="#" onclick="showMyProfile()">My Profile</a>
+                <a href="#" onclick="showJobs()">Jobs</a>
+                <a href="#" onclick="showApplications()">Applications</a>
+                <a href="#" onclick="signOut()">Sign Out</a>
+            </div>
+        </div>
         <a href="#">About</a>
+        
+        </div>
         <a href="#" onclick="showRegistration()">Register</a>
         <a href="#" onclick="showLogin()">Login</a>
     </nav>
